@@ -110,7 +110,7 @@ a {
         color: $dark;
     }
 }
-a:not(.prev):not(.next):not(.image):not(.say-hello):not(.article__image) {
+a:not(.prev):not(.next):not(.image):not(.say-hello):not(.article__image):not(.descrip) {
     color: black;
     background-color: transparent;
     text-decoration: none;
@@ -151,7 +151,11 @@ a:not(.prev):not(.next):not(.image):not(.say-hello):not(.article__image) {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1.5rem;
-    width: 75%;
+    // width: 75%;
+}
+
+.descrip {
+    color: black;
 }
 
 hr {

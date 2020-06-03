@@ -37,10 +37,10 @@ layout: default
           <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
         </h2>
         <div class="article__meta">
-          <span class="article__date"> <time datetime="{{ post.date | date_to_xmlschema }}">{% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}{{ post.date | date: date_format }}</time></span>
+          <a class="descrip" href="{{post.url | prepend: site.baseurl}}> <time datetime="{{ post.date | date_to_xmlschema }}">{% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}{{ post.date | date: date_format }}</time></a>
         </div>
-        <p class="article__excerpt">{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | truncate: 130 }}{% endif %}</p>
-        <a href="{{ post.url | prepend: site.baseurl }}" class="read-more">Read more</a>
+        <a class='descrip' href="{{post.url | prepend: site.baseurl}}">{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | truncate: 150 }}{% endif %}</a>
+        <!-- <a href="{{ post.url | prepend: site.baseurl }}" class="read-more">Read more</a> -->
       </div>
     </div>
     {% endfor %}

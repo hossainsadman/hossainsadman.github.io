@@ -4,6 +4,7 @@ title:  Believe in the workflow
 date:   2019-07-24 15:01:35 +0300
 image:  '/assets/img/02.jpg'
 tags:   [switzerland, heels, chair, blog]
+description: Leverage agile frameworks to provide a robust synopsis for high level overviews.
 ---
 Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
 

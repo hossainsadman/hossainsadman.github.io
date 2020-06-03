@@ -4,6 +4,7 @@ title:  Conference in London
 date:   2019-07-24 14:50:35 +0300
 image:  '/assets/img/07.jpg'
 tags:   [travel, london, work, blog]
+description: Bring to the table win-win survival strategies to ensure proactive domination. 
 ---
 Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
 
