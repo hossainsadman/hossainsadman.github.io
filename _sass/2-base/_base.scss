@@ -1,9 +1,20 @@
+
+@font-face {
+    font-family: 'Inter', sans-serif;
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+}
+
+@font-face {
+    font-family: 'Space Mono', monospace;
+    @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+}
+
 *, *::after, *::before {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Lora', Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Inter', Georgia, Times, 'Times New Roman', serif;
   font-size: 16px;
   color: $dark;
   background-color: #fff;
@@ -37,7 +48,7 @@ h4,
 h5,
 h6 {
   margin: 45px 0 30px;
-  font-family: 'Lora', Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Inter', Georgia, Times, 'Times New Roman', serif;
   line-height: initial;
   font-weight: 400;
   letter-spacing: 0.1px;
@@ -69,7 +80,7 @@ h6 {
 
 blockquote {
   padding-left: 30px;
-  font-family: 'Lora', Georgia, Times, serif;
+  font-family: 'Inter', Georgia, Times, serif;
   font-weight: 400;
   font-style: italic;
   font-size: 18px;
@@ -109,6 +120,49 @@ a {
     &:hover {
         color: $dark;
     }
+}
+a:not(.prev):not(.next):not(.image):not(.say-hello):not(.article__image) {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+
+    position: relative;
+    display: inline-block;
+    padding: 0px 1px;
+    transition: color ease 0.3s;
+
+    /* Hover animation effect for all buttons */
+    &::after {
+      content: '';
+      position: absolute;
+      z-index: -1;
+      height: 0%;
+      left: -1.5px;
+      right: -1.5px;
+      bottom: 0;
+      background-color:  #ffdb3ce5;
+      transition: all ease 0.3s;
+    }
+
+    code ~ &::after {
+      left: 0;
+      right: 0;
+    }
+
+    &:hover {
+      color: black;
+      &::after {
+        height: 100%;
+      }
+    }
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5rem;
+    width: 75%;
 }
 
 hr {

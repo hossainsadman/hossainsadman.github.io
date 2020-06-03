@@ -1,9 +1,8 @@
 ---
 layout: default
 ---
-
+<!-- 
 <div class="container">
-  <!-- begin author -->
   <section class="author" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
     <div class="author__inner">
   <img src="{{site.baseurl}}{{site.author.image}}" alt="{{site.author.name}}" class="author__img">
@@ -15,8 +14,14 @@ layout: default
       </div>
     </div>
   </section>
-  <!-- end author -->
 </div>
+-->
+<div class="container">
+    <a class = "image" href="https://github.com/hossainsadman" target="_blank">
+        <img alt="Image" src = assets/img/litest.jpg>
+    </a>
+</div>
+
 
 <div class="container">
   {% if site.posts.size > 0 %}
@@ -32,10 +37,10 @@ layout: default
           <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
         </h2>
         <div class="article__meta">
-          <span class="article__date">Published <time datetime="{{ post.date | date_to_xmlschema }}">{% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}{{ post.date | date: date_format }}</time></span>
+          <span class="article__date"> <time datetime="{{ post.date | date_to_xmlschema }}">{% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}{{ post.date | date: date_format }}</time></span>
         </div>
         <p class="article__excerpt">{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | truncate: 130 }}{% endif %}</p>
-        <a href="{{ post.url | prepend: site.baseurl }}" class="read-more">Read the rest</a>
+        <a href="{{ post.url | prepend: site.baseurl }}" class="read-more">Read more</a>
       </div>
     </div>
     {% endfor %}
