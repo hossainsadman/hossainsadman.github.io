@@ -2,8 +2,15 @@
 layout: page
 title: About.
 permalink: /about/
-image: '/assets/img/01.jpg'
+# image: '/assets/img/01.jpg'
 ---
+
+<div 
+    style="background-image: url(https://images.unsplash.com/photo-1545852528-fa22f7fcd63e?ixlib=rb-1.2.1&auto=format&fit=crop&w=2551&q=80); 
+    background-size: 100%;
+    width: 1500; height: 800;">
+</div>
+<img class="w3-image" src="https://images.unsplash.com/photo-1545852528-fa22f7fcd63e?ixlib=rb-1.2.1&auto=format&fit=crop&w=2551&q=80)" alt="Architecture" width= height="800">
 
 Hi, my name is Derrick Wells. I like being at the center of events, being free and enjoying every moment. Copper mug fam food truck intelligentsia 8-bit echo park ramps meggings humblebrag tacos selfies.
 
