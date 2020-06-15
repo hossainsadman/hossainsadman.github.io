@@ -1,0 +1,23 @@
+.banner-area {
+  background-image: url('https://images.unsplash.com/photo-1545852528-fa22f7fcd63e?ixlib=rb-1.2.1&auto=format&fit=crop&w=2551&q=80');
+  background-size: cover;
+  height: 1000px;
+}
+
+			<section class="banner-area">
+				<div class="container">
+					<div class="row fullscreen align-items-center justify-content-between">
+						<div class="col-lg-6 col-md-6 banner-left">
+							<h6>This is me</h6>
+							<h1>Philip Gilbert</h1>
+							<p>
+								You will begin to realise why this exercise is called the Dickens Pattern with reference to the ghost showing Scrooge some different futures.
+							</p>
+							<a href="#" class="primary-btn text-uppercase">discover now</a>
+						</div>
+						<div class="col-lg-6 col-md-6 banner-right d-flex align-self-end">
+							<img class="img-fluid" src="img/hero-img.png" alt="">
+						</div>
+					</div>
+				</div>					
+			</section>
