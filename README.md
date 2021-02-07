@@ -1,6 +1,5 @@
-# Derrick — Minimal Theme for Jekyll.
-
-Derrick is a clean minimal and fast theme for a personal blog.
+# hossainsadman.github.io
+Experimenting with [Jekyll](https://jekyllrb.com/) to create a static blog. Based on the [Derrick theme](https://github.com/artemsheludko/derrick) for Jekyll.
 
 * * *
 
@@ -20,21 +19,13 @@ Table of Contents
 ### Features
 
 * 100% responsive and clean theme
-
 * Optimized for mobile devices
-
 * Minimal design
-
 * Valid HTML5 code
-
 * Post sharing
-
 * Supports Disqus Comments
-
 * Supports Google Analytics
-
 * Google Fonts
-
 
 * * *
 
